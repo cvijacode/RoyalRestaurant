@@ -1,0 +1,569 @@
+body {
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-color: #000;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: orangered;
+}
+
+::selection {
+  color: #fff;
+  background: orangered;
+}
+
+#capital {
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 48px;
+  color: #fff;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navigation-bar {
+  margin-top: 0;
+}
+
+.nav-bar-border {
+  border-top: 1px solid #ff4500;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.active,
+.highlight,
+.nav-item a:hover {
+  color: #ff4500 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: 500;
+}
+
+.correct {
+  border: 0;
+  border-radius: 0;
+}
+
+.marketing {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.marketing h2 {
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.content-heading {
+  color: #fff;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.8px;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 5rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #111111;
+}
+
+.paragraph-props {
+  margin-bottom: 0;
+}
+
+.social-media-icons {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.235s ease-in-out;
+}
+
+.social-media-props {
+  margin-left: 4px;
+}
+
+.social-media-icons:focus,
+.social-media-icons:hover {
+  color: orangered;
+}
+
+.footer a {
+  font-size: 18px;
+}
+
+/* END OF FOOTER */
+
+/* ABOUT-US */
+
+.header {
+  position: relative;
+  background: url("images/header.png") no-repeat bottom center / cover;
+}
+
+.header .container {
+  padding: 75px 0;
+}
+
+.header:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header h1,
+.header .lead {
+  color: #fff;
+}
+
+.header .header-content {
+  font-size: 1.25rem;
+}
+
+.about-us {
+  margin-top: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-us .content-heading {
+  font-size: 36px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.about-us .content-body {
+  font-size: 16px;
+}
+
+.card-content {
+  color: #c5c5c5;
+}
+
+.about-us-cards {
+  margin-top: 5rem;
+}
+
+.row-properties {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.about-us-title {
+  margin-top: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.first-part {
+  margin-top: 58.5px;
+}
+
+.second-part {
+  margin-top: 46.5px;
+}
+
+.third-part {
+  margin-top: 70.5px;
+}
+
+/* END OF ABOUT-US */
+
+/* MENU */
+
+.menu-header {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.menu {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.menu h2 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.menu h4 {
+  font-family: "Playfair Display", serif;
+}
+
+/* END OF MENU */
+
+/* CONTACT */
+
+.form {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.form h2 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-control:focus {
+  border: 2px solid orangered;
+  box-shadow: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.myButton {
+  border: 0;
+  background-color: orangered;
+  color: white;
+}
+
+.myButton:hover {
+  background-color: black;
+  color: orangered;
+}
+
+.form-floating.error input {
+  border: 2px solid red;
+}
+
+.form-floating.success input {
+  border: 2px solid green;
+}
+
+.form-floating.error small {
+  color: red;
+}
+
+.form-floating.success small {
+  color: green;
+}
+
+.button-print {
+  display: block;
+}
+
+.map {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+}
+.map iframe {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* END OF CONTACT */
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1400px) {
+  .first-heading {
+    font-size: 3.5rem;
+    margin-top: 110px;
+  }
+  .second-heading {
+    font-size: 3.5rem;
+    margin-top: 132.5px;
+  }
+  .third-heading {
+    font-size: 3.5rem;
+    margin-top: 117.5px;
+  }
+  .first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    font-size: 28px;
+  }
+  .first-part,
+  .second-part {
+    margin-top: 71.5px;
+  }
+  .third-part {
+    margin-top: 80px;
+  }
+  .about-us .content-body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .first-heading {
+    font-size: 3rem;
+    margin-top: 100px;
+  }
+  .second-heading,
+  .third-heading {
+    font-size: 3rem;
+    margin-top: 115px;
+  }
+  .first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    font-size: 22px;
+  }
+  .first-part {
+    margin-top: 58.5px;
+  }
+  .second-part {
+    margin-top: 46.5px;
+  }
+  .third-part {
+    margin-top: 70.5px;
+  }
+  .about-us .content-body {
+    font-size: 16px;
+  }
+  .card-content {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .first-heading {
+    font-size: 40px;
+    margin-top: 82.5px;
+  }
+  .second-heading,
+  .third-heading {
+    font-size: 40px;
+    margin-top: 95px;
+  }
+  .first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    font-size: 18px;
+  }
+  .about-us .content-body {
+    font-size: 14px;
+  }
+  .first-part {
+    margin-top: 47px;
+  }
+  .second-part {
+    margin-top: 36.5px;
+  }
+  .third-part {
+    margin-top: 57.5px;
+  }
+  .card-content {
+    font-size: 16.5px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .first-heading {
+    font-size: 28px;
+    margin-top: 37.5px;
+  }
+  .second-heading,
+  .third-heading {
+    font-size: 28px;
+    margin-top: 62.5px;
+  }
+  .first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    font-size: 16px;
+  }
+  .about-us,
+  .about-us-title {
+    margin-top: 20px;
+  }
+  .first-part,
+  .third-part {
+    margin-top: 0;
+  }
+  .second-part {
+    margin-top: 16px;
+  }
+  .row-properties {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .about-us-cards {
+    margin-top: 40px;
+  }
+  .card-content {
+    font-size: 16px;
+  }
+  .form {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .first-heading,
+  .second-heading,
+  .third-heading {
+    font-size: 36px;
+  }
+  .first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    font-size: 20px;
+  }
+  .header .header-content {
+    font-size: 18px;
+  }
+  .about-us,
+  .about-us-title {
+    margin-top: 20px;
+  }
+  .about-us .first-part {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .about-us .second-part,
+  .about-us .third-part {
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+  .about-us .content-body {
+    font-size: 14px;
+  }
+  .row-properties {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .about-us-cards {
+    margin-top: 2rem;
+  }
+  .card-content {
+    font-size: 16px;
+  }
+  .form {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .footer {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 480px) {
+  .first-heading,
+  .second-heading,
+  .third-heading {
+    font-size: 36px;
+  }
+  .first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    font-size: 20px;
+  }
+  .header .header-content {
+    font-size: 18px;
+  }
+  .about-us,
+  .about-us-title {
+    margin-top: 20px;
+  }
+  .about-us .first-part {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .about-us .second-part,
+  .about-us .third-part {
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+  .row-properties {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .about-us-cards {
+    margin-top: 2rem;
+  }
+  .card-content {
+    font-size: 16px;
+  }
+  .form {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .footer {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  #capital {
+    font-size: 36px;
+  }
+  .first-heading,
+  .second-heading,
+  .third-heading {
+    font-size: 24px;
+  }
+  .first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    font-size: 16px;
+  }
+  .header .header-content {
+    font-size: 15px;
+  }
+  .about-us,
+  .about-us-title {
+    margin-top: 20px;
+  }
+  .about-us .first-part {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .about-us .second-part,
+  .about-us .third-part {
+    margin-top: 2rem;
+    font-size: 12px;
+  }
+  .row-properties {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .about-us-cards {
+    margin-top: 2rem;
+  }
+  .card-content {
+    font-size: 14px;
+  }
+  .form {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .footer {
+    margin-top: 2rem;
+  }
+}
+
+/* END OF MEDIA-QUERIES */
